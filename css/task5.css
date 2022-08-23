@@ -1,0 +1,179 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* make the first section align with flex */
+.container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+    display: flex;
+}
+/* style nav bar elements */
+ul{
+    list-style: none;
+    text-align: right;
+}
+/* style the links */
+a{
+    color: white;
+    font-size: 25px;
+    font-weight: 10px;
+    text-decoration: none;
+    padding-bottom: 1px;
+}
+/* make a hover to icone and nav elements */
+ul a:hover, i:hover{
+    color: grey;
+    transition: 1s;
+}
+/* margin to list elements */
+li{
+    margin-left: 25px;
+}
+/* style the logo */
+.logo, .logo2{
+    color: darkorchid;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 40px;
+}
+/* body height and font style */
+body{
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* make second section algin with flex */
+.landing{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* resize images */
+img{
+    width: 250px;
+    height: 300px;
+    border-radius: 10%;
+}
+/* make first image bigger */
+.image img{
+    width: 300px;
+    height: 350px;
+}
+/* style firt paragraph */
+.first{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+}
+/* style second paragraph */
+.second{
+    color: rgb(232, 170, 66);
+    font-weight: bolder;
+    font-size: 50px;
+}
+/* style third paragraph */
+.third{
+    color: white;
+    margin-bottom: 30px;
+}
+/* margin to all the paragraph in the second section */
+.text{
+    margin: 100px;
+}
+.image{
+    margin: 50px;
+}
+/* third section style */
+.About{
+    text-align: center;
+}
+.collection p{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+}
+code{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* style the paragraph in third section */
+.info{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+/* button in third section */
+.button2{
+    margin-bottom: 20px;
+}
+/* style photos in fourth section */
+.photos{
+    width: 53%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 20px;
+}
+/* style the footer */
+.footer{
+    width: 100%;
+    background-color: rgb(44, 54, 57);
+    height: 100px;
+}
+/* make the elements inside footer align with flex */
+.footer_elements{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* style the icons in the footer */
+.icons{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.logo2{
+    margin-top: 20px;
+}
+.button3{
+    margin-top: 26px;
+}
+/* adjust icons size and color */
+i{
+    font-size:25px;
+    color: white;
+}
+/* style buttons */
+button {
+background-color: blueviolet;
+color: white;
+border: none;
+padding: 3px 10px;
+border-radius: 7px;
+cursor: pointer;
+}
+/* hover on buttons */
+button:hover{
+    background-color:rgb(238, 129, 179);
+    transition: 1s;
+}
+/* font size of buttons */
+.button2 a, .button1 a, .button3 a{
+    font-size: 15px;
+}
+
+
+
+
+
